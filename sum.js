@@ -1,4 +1,4 @@
-function calculatesum(a, b){
+export function calculatesum(a, b){
     const sum = a + b
     console.log(sum);
     
@@ -6,4 +6,4 @@ function calculatesum(a, b){
 
 var x = "Hellooo am here!"
 
-module.exports = {calculatesum, x}
+//module.exports = {calculatesum, x}

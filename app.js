@@ -1,5 +1,5 @@
 // by using require we cant access variables and functions
-require("./xyz")
+//require("./xyz")
 const {calculatesum, x} = require("./sum")
 
 const name = "Namaste Node JS"
@@ -8,7 +8,7 @@ var b = 10
 
 calculatesum(a, b)
 
-console.log(x);
+//console.log(x);
 
 
 
